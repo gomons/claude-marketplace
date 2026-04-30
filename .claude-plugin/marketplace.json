@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "gomons-claude-plugins",
+  "version": "0.1.0",
+  "description": "Developer tool plugins for Claude Code.",
+  "owner": {
+    "name": "Siarhei Homan",
+    "email": "gomons@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "rtk",
+      "source": "./plugins/rtk",
+      "description": "Install Rust Token Killer for Claude Code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Siarhei Homan",
+        "email": "gomons@gmail.com"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codanna",
+      "source": "./plugins/codanna",
+      "description": "Codanna MCP integration for Claude Code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Siarhei Homan",
+        "email": "gomons@gmail.com"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "serena",
+      "source": "./plugins/serena",
+      "description": "Serena MCP integration for Claude Code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Siarhei Homan",
+        "email": "gomons@gmail.com"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "git-tools",
+      "source": "./plugins/git-tools",
+      "description": "Small Git workflow helpers for Claude Code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Siarhei Homan",
+        "email": "gomons@gmail.com"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
